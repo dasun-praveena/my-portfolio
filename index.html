@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dasun Praveena — Portfolio</title>
+  <meta name="description" content="Software Engineering Undergraduate at Sabaragamuwa University of Sri Lanka — Portfolio of projects, skills, and contact." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="nav">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="logo"><span>DP</span></div>
+        <span>Dasun Praveena</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌗</button>
+    </div>
+  </div>
+
+  <main class="container" style="position:relative">
+    <div class="blob" aria-hidden="true"></div>
+    <div class="blob2" aria-hidden="true"></div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div>
+        <span class="badge">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7l3-7z" stroke="currentColor" stroke-width="1.5"/></svg>
+          Software Engineering Undergraduate — SUSL
+        </span>
+        <h1>Hi, I’m <span style="background:linear-gradient(90deg,var(--brandA),var(--brandB));-webkit-background-clip:text;background-clip:text;color:transparent">Dasun</span> 👋</h1>
+        <p class="subtitle">I enjoy building clean, reliable software. I work with C, C#, and databases, and I’m learning modern web development. I like simple, clear solutions and continuous improvement.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my projects</a>
+          <a class="btn" href="https://github.com/dasun-praveena" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/dasun-praweena-b45120338/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="btn" href="#" download>Download CV</a>
+        </div>
+      </div>
+      
+        
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <div class="section-title"><h2>About me</h2><div class="line"></div></div>
+      <div class="glass" style="padding:18px">
+        <p style="margin:0 0 8px">I am a Software Engineering undergraduate at <strong>Sabaragamuwa University of Sri Lanka</strong>. I like solving real problems with simple code and learning by building.</p>
+        <ul style="margin:0;padding-left:18px;color:var(--muted)">
+          <li>Comfortable with <strong>C</strong>, <strong>C#</strong>, and <strong>MySQL</strong>.</li>
+          <li>Experience with <strong>SPSS</strong> for data analysis.</li>
+          <li>Interested in clean architecture and practical algorithms.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="section-title"><h2>Skills</h2><div class="line"></div></div>
+      <div class="skills">
+        <span class="chip">C</span>
+        <span class="chip">C# / .NET</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">SPSS</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript (learning)</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">OOP</span>
+        <span class="chip">Problem Solving</span>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <div class="section-title"><h2>Projects</h2><div class="line"></div></div>
+      <div class="grid">
+        
+       
+        <!-- Project 5 (placeholder to expand later) -->
+        <article class="glass card">
+          <div class="thumb">
+            <svg width="90" height="90" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 3h18v14H3zM7 21h10" stroke="white" stroke-width="1.5"/></svg>
+          </div>
+          <div class="card-body">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+              <h3 style="margin:0;font-size:18px">This Website</h3>
+              <span class="tag">HTML · CSS · JS</span>
+            </div>
+            <p style="color:var(--muted);margin:0 0 10px">Responsive portfolio built with vanilla HTML/CSS, glassmorphism, and a11y-friendly components.</p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap">
+              <a class="btn" href="#" target="_blank" rel="noreferrer">Source</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+      <div class="section-title"><h2>Education</h2><div class="line"></div></div>
+      <div class="glass" style="padding:18px">
+        <div class="timeline">
+          <div class="t-item">
+            <h3 style="margin:0 0 6px">BSc (Hons) in Software Engineering</h3>
+            <div style="color:var(--muted)">Sabaragamuwa University of Sri Lanka · <em>Undergraduate</em></div>
+          </div>
+          <div class="t-item">
+            <h3 style="margin:0 0 6px">Selected Courses</h3>
+            <div style="color:var(--muted)">Computer Organization & Architecture, Data Structures, Databases, Statistics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="section-title"><h2>Contact</h2><div class="line"></div></div>
+      <div class="grid">
+        <div class="glass" style="padding:18px">
+          <form id="contactForm" onsubmit="event.preventDefault(); contactSubmit();">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" required></textarea>
+            <button class="btn primary" type="submit">Send message</button>
+            <p id="formNote" style="margin:8px 0 0;color:var(--muted)">This demo saves nothing. It will open your email app.</p>
+          </form>
+        </div>
+        <div class="glass" style="padding:18px">
+          <p style="margin:0 0 10px">Prefer email or socials?</p>
+          <ul style="margin:0;padding-left:18px;color:var(--muted)">
+            <li>Email: <a href="mailto:dasunpraveena@gmail.com">dasunpraveena@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/dasun-praveena" target="_blank" rel="noreferrer">@yourhandle</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/dasun-praweena-b45120338/" target="_blank" rel="noreferrer">/in/yourhandle</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container" style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <span>© <span id="year"></span> Dasun Praveena</span>
+        <span style="opacity:.8">Built with plain HTML/CSS/JS</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Simple theme toggle (keeps gradients while flipping surfaces)
+    const root = document.documentElement;
+    const toggle = document.getElementById('themeToggle');
+    const stored = localStorage.getItem('theme');
+    if(stored === 'light') makeLight();
+    toggle.addEventListener('click', () => {
+      const isLight = root.style.getPropertyValue('--bg') === '#f7f8fb';
+      isLight ? makeDark() : makeLight();
+    });
+    function makeLight(){
+      root.style.setProperty('--bg','#f7f8fb');
+      root.style.setProperty('--surface','#ffffff');
+      root.style.setProperty('--text','#0b1020');
+      root.style.setProperty('--muted','#475569');
+      document.body.style.background = 'linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%)';
+      localStorage.setItem('theme','light');
+    }
+    function makeDark(){
+      root.style.setProperty('--bg','#0b1020');
+      root.style.setProperty('--surface','#121735');
+      root.style.setProperty('--text','#e6eaf5');
+      root.style.setProperty('--muted','#98a2b3');
+      document.body.style.background = 'radial-gradient(1200px 700px at 70% -10%, rgba(124,58,237,.26), transparent 60%),'+
+      'radial-gradient(900px 500px at 0% 20%, rgba(110,231,255,.18), transparent 55%),'+
+      'linear-gradient(180deg, #0b1020 0%, #0a0f1d 100%)';
+      localStorage.setItem('theme','dark');
+    }
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Contact form: open default mail app with filled subject/body
+    function contactSubmit(){
+      const f = document.getElementById('contactForm');
+      const data = Object.fromEntries(new FormData(f));
+      const subject = encodeURIComponent('Portfolio contact from ' + data.name);
+      const body = encodeURIComponent(`${data.message}\n\nFrom: ${data.name}\nEmail: ${data.email}`);
+      window.location.href = `mailto:youremail@example.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body>
+</html>
